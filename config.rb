@@ -1,3 +1,5 @@
+require 'zurb-foundation'
+
 ###
 # Blog settings
 ###
