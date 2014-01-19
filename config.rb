@@ -11,7 +11,7 @@ activate :blog do |blog|
   #blog.prefix = "blog"
   blog.permalink = "/blog/{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
-  blog.sources = "/blogs/{year}-{month}-{day}-{title}.html"
+  blog.sources = "/posts/{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
   blog.layout = "blog"
   # blog.summary_separator = /(READMORE)/
